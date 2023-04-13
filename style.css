@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(133, 235, 235);
+}
+
+button {
+    background-color: rgb(102, 199, 199);
+    padding: 15px 11px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 9px;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.container {
+    background-color: #62dafb;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#container h1 {
+    color: rgb(0, 0, 0);
+    margin-left: 16px;
+}
+
+#decrementBtn {
+    margin-right: 30px;
+}
+
+#incrementBtn {
+    margin-left: 30px;
+}
+
+#resetBtn {
+    margin: 15px;
+    margin-left: 85px;
+}
